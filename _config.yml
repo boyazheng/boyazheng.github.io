@@ -1,0 +1,27 @@
+# Site settings
+title: opengers
+email: zijian1012#gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  kvm,python,docker,devops
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.isjian.com" # the base hostname & protocol for your site
+#twitter_username: stevenvmiller
+github_username:  opengers
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input:         GFM
+  auto_ids:      true
+  extensions: ["autolink", "tables"]
+
+job.title: "DevOps"
+excerpt_separator: "<!--more-->"
+
+# SEO stuff
+#google_author: "https://plus.google.com/u/0/110288225974212014913"
+#google_site_verification: "nfd8hkZSc3GmIivrLCudAdTq5m1kI0Ao7P1UyIt9z5Q"
+#bing_webmastertools_id: "E24D33E8D53D5730794478CB209F15E5"
+
+gems:
+  - jekyll-sitemap

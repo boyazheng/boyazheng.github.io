@@ -1,0 +1,20 @@
+- title: "Home"
+  href: "/home/"
+  
+- title: "Linux"
+  href: "/linux/"
+
+- title: "虚拟化"
+  href: "/virtualization/"
+
+- title: "Python"
+  href: "/python/"
+
+- title: "OpenStack"
+  href: "/openstack/"
+
+- title: "ceph"
+  href: "/ceph/"
+
+- title: "About"
+  href: "/about/"
